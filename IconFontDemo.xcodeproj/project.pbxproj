@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3612D9B721B6BE16002FD6FF /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 3612D9B621B6BE16002FD6FF /* clock.png */; };
+		3612D9D921B7F696002FD6FF /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3612D9D821B7F696002FD6FF /* iconfont.ttf */; };
 		36EF366F21A835C900192B7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EF366E21A835C900192B7A /* AppDelegate.m */; };
 		36EF367221A835C900192B7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EF367121A835C900192B7A /* ViewController.m */; };
 		36EF367521A835C900192B7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EF367321A835C900192B7A /* Main.storyboard */; };
@@ -17,13 +18,12 @@
 		36EF368821ABC86F00192B7A /* YYIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EF368721ABC86F00192B7A /* YYIconFont.m */; };
 		36EF368B21ABCC1D00192B7A /* UIImage+YYIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EF368A21ABCC1D00192B7A /* UIImage+YYIconFont.m */; };
 		36EF369221ABE4EF00192B7A /* YYIconFontImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EF369121ABE4EF00192B7A /* YYIconFontImageCache.m */; };
-		36EF369621ABF4E300192B7A /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36EF369521ABF4E300192B7A /* iconfont.ttf */; };
-		36EF369821ABF61300192B7A /* collection.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EF369721ABF61300192B7A /* collection.png */; };
 		36EF369A21AC1B3A00192B7A /* iconfont.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36EF369921AC1B3A00192B7A /* iconfont.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3612D9B621B6BE16002FD6FF /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		3612D9D821B7F696002FD6FF /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 		36EF366A21A835C900192B7A /* IconFontDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconFontDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36EF366D21A835C900192B7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		36EF366E21A835C900192B7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,8 +40,6 @@
 		36EF368A21ABCC1D00192B7A /* UIImage+YYIconFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YYIconFont.m"; sourceTree = "<group>"; };
 		36EF369021ABE4EF00192B7A /* YYIconFontImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYIconFontImageCache.h; sourceTree = "<group>"; };
 		36EF369121ABE4EF00192B7A /* YYIconFontImageCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYIconFontImageCache.m; sourceTree = "<group>"; };
-		36EF369521ABF4E300192B7A /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = iconfont.ttf; path = ../../../../../Pictures/iconfont/font_933465_gqx7sh3eb8v/iconfont.ttf; sourceTree = "<group>"; };
-		36EF369721ABF61300192B7A /* collection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = collection.png; path = ../../../../../Pictures/icon/collection.png; sourceTree = "<group>"; };
 		36EF369921AC1B3A00192B7A /* iconfont.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = iconfont.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,9 +73,8 @@
 		36EF366C21A835C900192B7A /* IconFontDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3612D9D821B7F696002FD6FF /* iconfont.ttf */,
 				3612D9B621B6BE16002FD6FF /* clock.png */,
-				36EF369721ABF61300192B7A /* collection.png */,
-				36EF369521ABF4E300192B7A /* iconfont.ttf */,
 				36EF369921AC1B3A00192B7A /* iconfont.strings */,
 				36EF368521ABC81400192B7A /* YYIcontFont */,
 				36EF366D21A835C900192B7A /* AppDelegate.h */,
@@ -164,9 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				36EF369A21AC1B3A00192B7A /* iconfont.strings in Resources */,
-				36EF369821ABF61300192B7A /* collection.png in Resources */,
-				36EF369621ABF4E300192B7A /* iconfont.ttf in Resources */,
 				36EF367A21A835CA00192B7A /* LaunchScreen.storyboard in Resources */,
+				3612D9D921B7F696002FD6FF /* iconfont.ttf in Resources */,
 				36EF367721A835CA00192B7A /* Assets.xcassets in Resources */,
 				3612D9B721B6BE16002FD6FF /* clock.png in Resources */,
 				36EF367521A835C900192B7A /* Main.storyboard in Resources */,
